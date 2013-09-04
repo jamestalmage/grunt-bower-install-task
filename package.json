@@ -1,22 +1,42 @@
 {
   "name": "grunt-bower-install-task",
+  "description": "Run bower install as a grunt task",
   "version": "0.0.1",
-  "description": "Download your bower dependencies as part of a grunt build.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/jamestalmage/grunt-bower-install-task",
+  "author": {
+    "name": "jamestalmage",
+    "email": "james.talmage@jrtechnical.com"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jamestalmage/grunt-bower-install-task.git"
   },
-  "keywords": [
-    "grunt",
-    "bower"
-  ],
-  "author": "James Talmage",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jamestalmage/grunt-bower-install-task/issues"
-  }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jamestalmage/grunt-bower-install-task/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
 }
