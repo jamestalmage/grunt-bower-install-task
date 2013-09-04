@@ -1,7 +1,7 @@
 {
   "name": "grunt-bower-install-task",
   "description": "Run bower install as a grunt task",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/jamestalmage/grunt-bower-install-task",
   "author": {
     "name": "jamestalmage",
