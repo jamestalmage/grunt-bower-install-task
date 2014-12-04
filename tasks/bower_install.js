@@ -8,7 +8,7 @@ module.exports = function(grunt){
         renderer.log(log);
       })
       .on('prompt',function(prompts,callback){
-        renderer.prompt(prompt).then(function(answer){
+        renderer.prompt(prompts).then(function(answer){
           callback(answer);
         });
       })
@@ -19,6 +19,6 @@ module.exports = function(grunt){
       .on('end',function(data){
         renderer.end(data);
         done();
-      })
-  })
+      });
+  });
 };
