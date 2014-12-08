@@ -1,7 +1,7 @@
 {
   "name": "grunt-bower-install-task",
   "description": "Run bower install as a grunt task",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/jamestalmage/grunt-bower-install-task",
   "author": {
     "name": "jamestalmage",
@@ -35,8 +35,8 @@
     "bower": "^1.3.12"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5",
-    "bower": "^1.3.12"
+    "grunt": "0.4.x",
+    "bower": "1.x"
   },
   "keywords": [
     "gruntplugin"
