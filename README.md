@@ -18,7 +18,7 @@ Once the plugin has been installed, load it inside your Gruntfile and use it as 
 grunt.loadNpmTasks('grunt-bower-install-task');
 
 //Use the task as part of your build
-grunt.registerTask('init',['_bower_install_' /*, .... your other init tasks */])
+grunt.registerTask('init',['bower_install' /*, .... your other init tasks */])
 ```
 
 
